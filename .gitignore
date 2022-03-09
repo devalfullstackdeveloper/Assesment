@@ -38,8 +38,12 @@ bower_components
 build/Release
 
 # Dependency directories
-node_modules/
 jspm_packages/
+# node.js
+#
+node_modules/
+npm-debug.log
+yarn-error.log
 
 # TypeScript v1 declaration files
 typings/
@@ -102,3 +106,15 @@ dist
 
 # TernJS port file
 .tern-port
+
+# CocoaPods
+/ios/Pods/
+
+# Android/IntelliJ
+#
+build/
+.idea
+.gradle
+local.properties
+*.iml
+*.hprof
